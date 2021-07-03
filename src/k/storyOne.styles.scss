@@ -1,0 +1,18 @@
+.ant-layout{
+  width: 100vw;
+  .ant-layout-header {
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+  }
+  .ant-layout-content {
+    height: 90vh;
+    background-color: antiquewhite;
+    padding: 3vh 30vh 0vh;
+    .ant-card.ant-card-bordered{
+      height: 225px;
+    }
+  }
+}
